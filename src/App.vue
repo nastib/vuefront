@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/vue.svg" style="height: 100px; width: 100px;">
-    <readJSON/>
+    <ReadJSON/>
   </div>
 </template>
 <script setup lang="ts">
