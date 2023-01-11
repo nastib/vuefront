@@ -1,8 +1,6 @@
-The template then loads the JSON in a couple of diffferent ways-->
-
 <template>
   <span>
-    <p>JSON DATA: </p>
+    <p>JSON DATA !!!: </p>
     <ul>
       <li v-for="product in jsonData" :key="product.id" style="list-style-type: none;">
      <b>Name:</b> {{ product.title }}, <br> <p><b>Price: $</b> {{ product.price }}</p>, 
